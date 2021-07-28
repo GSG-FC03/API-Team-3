@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body:after {
+  position: absolute;
+  content: "";
+  background: #41a7ff;
+  width: 100%;
+  height: 50%;
+  top: 0;
+}
+body:before {
+  position: absolute;
+  content: "";
+  background: #fff;
+  width: 100%;
+  height: 0%;
+  bottom: 0;
+}
+.container {
+  z-index: 1;
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 2vw;
+  background: #f6f5f0;
+  padding: 2% 2% 6% 2%;
+  box-shadow: 0px 10px 6px -8px rgba(0, 0, 0, 0.75);
+}
+
+.container h2 {
+  margin: 0 0 2%;
+  text-align: center;
+  font-size: 2.5vw;
+}
+img#flag {
+  width: 8%;
+  margin-left: 2%;
+}
+
+.board {
+  display: flex;
+  flex-direction: row;
+}
+
+.card {
+  width: 84%;
+  background: #ccc;
+  padding: 3% 8% 12% 3%;
+  border-radius: 4vw;
+  color: #fff;
+  margin: 5% 2% 0 0;
+  display: flex;
+  flex-direction: row;
+}
+.card.Total {
+  background: #ffd000;
+  margin-left: 2%;
+}
+.card.Deaths {
+  background: #9b0808;
+}
+.card.Recovered {
+  background: #079c0c;
+}
+.fa {
+  margin-right: 10%;
+}
+.card h5 {
+  margin: 0;
+  font-size: 2.1vw;
+}
+.card span {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.card i {
+  font-size: 3rem;
+}
+@media screen and (max-width: 768px) {
+  .container {
+    height: 80%;
+    width: 65%;
+    padding: 0 0 8% 0;
+  }
+  .container h2 {
+    margin: 20% 0 10% 5%;
+    font-size: 4vw;
+  }
+  .board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .card {
+    width: 84%;
+    height: 12vw;
+    margin-bottom: 6%;
+  }
+  .card.Total {
+    margin-left: 0%;
+  }
+  .card h5 {
+    margin: 3% 0 0 0;
+    font-size: 3vw;
+  }
+  .fa {
+    margin-right: 5%;
+    margin-left: 2%;
+  }
+
+  .card {
+    width: 50%;
+  }
+  /* .card span {
+    font-size: 2.5rem;
+  }
+} */
+  @media screen and (max-width: 500px) {
+    .container {
+      height: 85%;
+      width: 90%;
+      padding: 0 0 8% 0;
+    }
+    .container h2 {
+      margin: 15% 0 10% 5%;
+      font-size: 10vw;
+    }
+
+    .card {
+      width: 60%;
+      height: 35vw;
+      margin-bottom: 5%;
+    }
+    .card.Total {
+      margin-left: 0%;
+    }
+    .card h5 {
+      margin: 3% 0 0 0;
+      font-size: 6vw;
+    }
+    .fa {
+      margin-right: 8%;
+      margin-left: 2%;
+      margin-top: 3%;
+    }
+    img#flag {
+      width: 15%;
+    }
+
+    /* .card span {
+        font-size: 2.5rem;
+      }
+    } */
+  }
+}
