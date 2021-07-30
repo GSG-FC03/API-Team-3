@@ -133,5 +133,29 @@ input {
     font-size: 2rem;
     margin-top: 0%;
   }
+  .container{
+    margin-top: -50%;
+  }
+  .card h6 {
+    font-size: 2.5vh;
+    margin-top: 10%;
+  }
 
+}
+@media screen and (width: 1024px) {
+  .container{
+    margin-top: -8%;
+  }
+  .card h6 {
+    top: 45%;
+}
+}
+
+@media screen and (max-width: 280px) {
+  .card i {
+    font-size: 1rem;
+  }
+  .card h6 {
+    margin-top: 8%;
+}
 }
