@@ -1,4 +1,5 @@
 # API-Team-3
+
 # link:
 [Design link](https://www.figma.com/file/eddFmzwdAeUYegSmEk2blV/API-APP?node-id=0%3A1)
 
@@ -7,7 +8,8 @@
 # purpose:
 Provide an application to display COVID-19 total cases, recovered cases and tatal deaths in a number of countries provided.
 
-# Technology we used:
+# Technology used:
+
 HTML → to build the structure of the pages
 
 CSS → to style the application
@@ -41,6 +43,5 @@ You can choose a country from the options and the numbers of COVID-19 total case
 
 # Team members :
 Rola Hararah
+
 Abdulrahman Kallousa
-
-
