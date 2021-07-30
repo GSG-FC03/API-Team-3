@@ -137,9 +137,9 @@ input {
     margin-top: -50%;
   }
   .card h6 {
-    font-size: 2vw;
-    margin-top: 8%;
-  }
+    font-size: 4vw;
+    margin-top: 10%;
+}
 
 }
 @media screen and (width: 1024px) {
