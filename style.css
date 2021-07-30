@@ -33,7 +33,12 @@ input {
   width: 8%;
   margin-left: 2%;
 }
-
+#submit {
+  width: auto;
+  height: auto;
+  font-size: 60%;
+  align-items: center;
+}
 .board {
   display: flex;
   flex-direction: row;
