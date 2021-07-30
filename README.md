@@ -42,7 +42,6 @@ You can choose a country from the options and the numbers of COVID-19 total case
 -home page
 
 # Team members :
-Abdulrahman Kallousa
-
 Rola Hararah
 
+Abdulrahman Kallousa
