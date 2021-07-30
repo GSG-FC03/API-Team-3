@@ -12,7 +12,7 @@ body {
   height: auto;
   margin: 0 auto;
   border-radius: 2vw;
-  background: #f6f5f0;
+  background: #fff3b5;
   padding: 2% 2% 6% 2%;
   box-shadow: 0px 10px 6px -8px rgba(0, 0, 0, 0.75);
 }
@@ -38,7 +38,7 @@ input {
 
 .card {
   width: 84%;
-  background: #ccc;
+  background: rgb(153, 197, 248);
   padding: 3% 8% 12% 3%;
   border-radius: 4vw;
   color: #fff;
@@ -64,17 +64,22 @@ input {
   font-size: 2.1vw;
   font-weight:90;
 }
-.card span {
-  font-size: 3rem;
+.card h6 {
+  font-size: 4vh;
   font-weight: 700;
+  position: absolute;
+  float: left;
+  top: 50%;
 }
 .card i {
   font-size: 5rem;
   margin-top: 1%;
 }
+.container span{
+  color: rgb(32, 0, 216);
+}
 @media screen and (max-width: 768px) {
   .container {
-    /* height: 80%; */
     width: 65%;
     padding: 0 8% 8% 8%;
   }
@@ -110,51 +115,20 @@ input {
     margin-right: 5%;
     margin-left: 2%;
   }
-
-  /* .card {
-    width: 50%;
+  .card h6 {
+    font-size: 4vh;
+    font-weight: 700;
+    position: absolute;
+    float: none;
+    top: auto;  
+    margin-top: 8%;
+    margin-left: 2%;
   }
-  .card span {
-    font-size: 2.5rem;
-  } */
 }
 @media screen and (max-width: 500px) {
-  /* .container {
-      height: 85%;
-      width: 90%;
-      padding: 0 0 8% 0;
-    }
-    .container h2 {
-      margin: 15% 0 10% 5%;
-      font-size: 10vw;
-    }
-
-    .card {
-      width: 60%;
-      height: 35vw;
-      margin-bottom: 5%;
-    }
-    .card.Total {
-      margin-left: 0%;
-    } */
   .card i {
     font-size: 2rem;
     margin-top: 0%;
   }
-  /* .card h5 {
-      margin: 3% 0 0 0;
-      font-size: 6vw;
-    }
-    .fa {
-      margin-right: 8%;
-      margin-left: 2%;
-      margin-top: 3%;
-    }
-    img#flag {
-      width: 15%;
-    }
-
-    .card span {
-        font-size: 2.5rem;
-      } */
+  
 }
