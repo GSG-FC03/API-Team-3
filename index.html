@@ -17,58 +17,66 @@
   <body>
     <div class="container">
       <h2>
-        COVID -19 Cases in
-        <span>
-          <input list="countries" name="country" placeholder="Palestine"/>
+        COVID-19 Cases in
+        <span id="cou"
+          ><p id="countryName"></p>
+          <img src="" id="flag" />
+          <input
+            list="countries"
+            name="country"
+            id="country"
+            placeholder="Palestine"
+          />
           <datalist id="countries">
-            <option value="Algeria"><img src="" id="flag"></option>
-            <option value="Australia"><img src="" id="flag"></option>
-            <option value="Bahrain"><img src="" id="flag"></option>
-            <option value="Canada"><img src="" id="flag"></option>
-            <option value="China"><img src="" id="flag"></option>
-            <option value="Denmark"><img src="" id="flag"></option>
-            <option value="Egypt"><img src="" id="flag"></option>
-            <option value="Finland"><img src="" id="flag"></option>
-            <option value="France"><img src="" id="flag"></option>
-            <option value="Germany"><img src="" id="flag"></option>
-            <option value="Greece"><img src="" id="flag"></option>
-            <option value="Hungary"><img src="" id="flag"></option>
-            <option value="Iceland"><img src="" id="flag"></option>
-            <option value="India"><img src="" id="flag"></option>
-            <option value="Iran"><img src="" id="flag"></option>
-            <option value="Iraq"><img src="" id="flag"></option>
-            <option value="Ireland"><img src="" id="flag"></option>
-            <option value="Italy"><img src="" id="flag"></option>
-            <option value="Japan"><img src="" id="flag"></option>
-            <option value="Jordan"><img src="" id="flag"></option>
-            <option value="Kuwait"><img src="" id="flag"></option>
-            <option value="Lebanon"><img src="" id="flag"></option>
-            <option value="Madagascar"><img src="" id="flag"></option>
-            <option value="Malaysia"><img src="" id="flag"></option>
-            <option value="Mexico"><img src="" id="flag"></option>
-            <option value="Morocco"><img src="" id="flag"></option>
-            <option value="New Zealand"><img src="" id="flag"></option>
-            <option value="Norway"><img src="" id="flag"></option>
-            <option value="Oman"><img src="" id="flag"></option>
-            <option value="Pakistan"><img src="" id="flag"></option>
-            <option value="Palestine"><img src="" id="flag"></option>
-            <option value="Philippines"><img src="" id="flag"></option>
-            <option value="Kuwait"><img src="" id="flag"></option>
-            <option value="Qatar"><img src="" id="flag"></option>
-            <option value="Russia"><img src="" id="flag"></option>
-            <option value="Korea"><img src="" id="flag"></option>
-            <option value="Saudi Arabia"><img src="" id="flag"></option>
-            <option value="South Africa"><img src="" id="flag"></option>
-            <option value="Spain"><img src="" id="flag"></option>
-            <option value="Sudan"><img src="" id="flag"></option>
-            <option value="Sweden"><img src="" id="flag"></option>
-            <option value="Turkey"><img src="" id="flag"></option>
-            <option value="UAE"><img src="" id="flag"></option>
-            <option value="UK"><img src="" id="flag"></option>
-            <option value="USA"><img src="" id="flag"></option>
-            <option value="Yemen"><img src="" id="flag"></option>
+            <option value="Algeria"></option>
+            <option value="Australia"></option>
+            <option value="Bahrain"></option>
+            <option value="Canada"></option>
+            <option value="China"></option>
+            <option value="Denmark"></option>
+            <option value="Egypt"></option>
+            <option value="Finland"></option>
+            <option value="France"></option>
+            <option value="Germany"></option>
+            <option value="Greece"></option>
+            <option value="Hungary"></option>
+            <option value="Iceland"></option>
+            <option value="India"></option>
+            <option value="Iran"></option>
+            <option value="Iraq"></option>
+            <option value="Ireland"></option>
+            <option value="Italy"></option>
+            <option value="Japan"></option>
+            <option value="Jordan"></option>
+            <option value="Kuwait"></option>
+            <option value="Lebanon"></option>
+            <option value="Madagascar"></option>
+            <option value="Malaysia"></option>
+            <option value="Mexico"></option>
+            <option value="Morocco"></option>
+            <option value="New Zealand"></option>
+            <option value="Norway"></option>
+            <option value="Oman"></option>
+            <option value="Pakistan"></option>
+            <option value="Palestine"></option>
+            <option value="Philippines"></option>
+            <option value="Kuwait"></option>
+            <option value="Qatar"></option>
+            <option value="Russia"></option>
+            <option value="Korea"></option>
+            <option value="Saudi Arabia"></option>
+            <option value="South Africa"></option>
+            <option value="Spain"></option>
+            <option value="Sudan"></option>
+            <option value="Sweden"></option>
+            <option value="Turkey"></option>
+            <option value="UAE"></option>
+            <option value="UK"></option>
+            <option value="USA"></option>
+            <option value="Yemen"></option>
           </datalist>
         </span>
+        <button type="submit" id="submit">Submit</button>
       </h2>
       <div class="board">
         <div class="card Total">
